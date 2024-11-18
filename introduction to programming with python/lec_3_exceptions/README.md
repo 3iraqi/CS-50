@@ -8,7 +8,7 @@
 * 
 
 ### **▾ Solution**:
-* ValueError solution:
+* ValueError solution: | `Try:` and `Except:`
     - ```python
         # if input is "string" or Boolean  
         # you can handle exception with this way:
