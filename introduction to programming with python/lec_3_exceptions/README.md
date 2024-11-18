@@ -4,6 +4,7 @@
 * **RuntimeError**:
 * **ValueError**: 
   * When you input a different data type 
+* **NameError:**
 * **InvalidArgument**:
 * 
 
@@ -19,5 +20,19 @@
             print("x is not a number")
         
         ```
+
+* NameError solution: |
+  - ```python
+        # output if input="string" will be NameError
+        try:
+           x=int(input("What's x?"))
+        except ValueError:
+            print("x is not a number")
+           
+        print(f"x is {x}")
+
+
+    ```
+
 
 
