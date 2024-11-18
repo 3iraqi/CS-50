@@ -1,5 +1,5 @@
 def main():
-    spacecraft={"name":""}
+    spacecraft={"name":"vogues","distance":"155"}
     print(create_report(spacecraft))
     
     
@@ -7,8 +7,8 @@ def create_report(spacecraft):
     return f"""
     ========= REPORT =========
     
-    Name: TODO
-    Distance: TODO
+    Name: {spacecraft["name"]}
+    Distance: {spacecraft["distance"]}
     
     ==========================
     """
