@@ -8,5 +8,5 @@
 * Lecture - 2: | "**LOOPS**"
   * Loop,Dictionary
 * Lecture - 3: | "**EXCEPTIONS**"
-  * let's go.
+  * let's go..
   
