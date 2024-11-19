@@ -21,7 +21,7 @@
         
         ```
 
-* NameError solution: | `Try:` and `Except:`
+* NameError solution: | `Try:` and `Except:` and `else`
   - ```python
         # output if input="string" will be NameError
         try:
