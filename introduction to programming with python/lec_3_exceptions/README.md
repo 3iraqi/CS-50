@@ -21,7 +21,7 @@
         
         ```
 
-* NameError solution: |
+* NameError solution: | `Try:` and `Except:`
   - ```python
         # output if input="string" will be NameError
         try:
@@ -31,6 +31,8 @@
            
         print(f"x is {x}")
 
+        # if input is a string    
+        # output NameError: name 'x' is not defined. 
 
     ```
 
