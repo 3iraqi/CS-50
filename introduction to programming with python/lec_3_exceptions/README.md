@@ -25,16 +25,68 @@
   - ```python
         # output if input="string" will be NameError
         try:
-           x=int(input("What's x?"))
+            x=int(input("What's x?"))
         except ValueError:
             print("x is not a number")
-           
-        print(f"x is {x}")
+        else:        
+            print(f"x is {x}")
 
         # if input is a string    
         # output NameError: name 'x' is not defined. 
-
+        # but when we use else the output will be x is {x}
     ```
+ 
+* Another example for `break` key word
+    - ```python
+        def ex1():
+           while True:
+                try:
+                    x=int(input("What's X?"))
+                except ValueError:
+                    print("X is not an Integer")
+                else:        
+                    break
+             
+           print(f"X is {x}")
 
+     ```
+
+* Another example for `return` key word
+    - ```python
+        def ex1():
+           while True:
+                try:
+                    x=int(input("What's X?"))
+                except ValueError:
+                    print("X is not an Integer")
+                else:        
+                    return x
+             
+     ```
+
+* Another example for `return` key word and normalize code
+    - ```python
+        def ex1():
+           while True:
+                try:
+                    return int(input("What's X?"))
+                except ValueError:
+                    print("X is not an Integer")
+            
+     ```
+* Another example for `pass` key word and normalize code
+    - ```python
+        def ex1():
+           while True:
+                try:
+                    return int(input("What's X?"))
+                except ValueError:
+                    pass
+            
+     ```
+
+
+
+# MEDIOCRACY : The Politics of the Extreme Center
 
 
