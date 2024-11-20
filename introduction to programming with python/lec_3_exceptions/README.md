@@ -50,6 +50,7 @@
            print(f"X is {x}")
      ```
 
+
 * Another example for `return` key word
     - ```python
         def ex1():
