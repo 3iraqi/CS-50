@@ -85,6 +85,7 @@
             
         ```
 
+> you can also raise an exception with `raise` keyword
 
 
 # MEDIOCRACY : The Politics of the Extreme Center
