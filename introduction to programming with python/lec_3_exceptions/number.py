@@ -11,7 +11,7 @@ def main():
 
 
 def ex1():
-   while True:
+    while True:
         try:
             x=int(input("What's X?"))
         except ValueError:
@@ -19,7 +19,7 @@ def ex1():
         else:        
             break
              
-   print(f"X is {x}")
+    print(f"X is {x}")
    
    
 def get_int():
