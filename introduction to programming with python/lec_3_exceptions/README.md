@@ -63,10 +63,7 @@
                 else:        
                     return x
              
-     ```
-
-
-
+        ```
 * Another example for `return` key word and normalize code
     - ```python
         def ex1():
@@ -76,8 +73,7 @@
                 except ValueError:
                     print("X is not an Integer")
             
-     ```
-
+        ```
 * Another example for `pass` key word and normalize code
     - ```python
         def ex1():
@@ -87,7 +83,7 @@
                 except ValueError:
                     pass
             
-     ```
+        ```
 
 
 
