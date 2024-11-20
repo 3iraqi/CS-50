@@ -48,7 +48,6 @@
                     break
              
            print(f"X is {x}")
-
      ```
 
 * Another example for `return` key word
