@@ -48,7 +48,8 @@
                     break
              
            print(f"X is {x}")
-     ```
+        ```
+
 
 
 * Another example for `return` key word
@@ -64,6 +65,8 @@
              
      ```
 
+
+
 * Another example for `return` key word and normalize code
     - ```python
         def ex1():
@@ -74,6 +77,7 @@
                     print("X is not an Integer")
             
      ```
+
 * Another example for `pass` key word and normalize code
     - ```python
         def ex1():
