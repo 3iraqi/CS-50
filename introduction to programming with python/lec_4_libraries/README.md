@@ -1,5 +1,5 @@
 # Libraries:
->  `Ex: • random  library`
+>  Ex: `• random  library` `statistics` `command-line arguments`
 
 * to use any library you need a new key word called: `import`
 * `import` allows you to import the contents of the functions from some module in Python.
@@ -13,3 +13,12 @@
         dice=rndm.choice([1,2,3,4,5,6])
         print(dice) 
     ```
+* if you choose specific function from some library you use `from` key word to call the function as its name.
+* `from` 
+  * ```python
+      from random import choice
+
+      dice=choice([1,2,3,4,5,6])
+      print(dice)
+    ```
+  
