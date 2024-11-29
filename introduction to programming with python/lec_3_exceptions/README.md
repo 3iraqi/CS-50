@@ -1,16 +1,17 @@
-# ▣ Lecture-3-{Exceptions}:
+# ▣ Lecture-3-{Exceptions}
 
-* **SyntaxError**: 
+* **SyntaxError**:
 * **RuntimeError**:
-* **ValueError**: 
-  * When you input a different data type 
+* **ValueError**:
+  * When you input a different data type
 * **NameError:**
 * **InvalidArgument**:
-* 
 
-### **▾ Solution**:
+## **▾ Solution**
+
 * ValueError solution: | `Try:` and `Except:`
-    - ```python
+
+  * ```python
         # if input is "string" or Boolean  
         # you can handle exception with this way:
         try:
@@ -22,7 +23,8 @@
         ```
 
 * NameError solution: | `Try:` and `Except:` and `else`
-  - ```python
+
+  * ```python
         # output if input="string" will be NameError
         try:
             x=int(input("What's x?"))
@@ -35,9 +37,10 @@
         # output NameError: name 'x' is not defined. 
         # but when we use else the output will be x is {x}
     ```
- 
+
 * Another example for `break` key word
-    - ```python
+
+  * ```python
         def ex1():
            while True:
                 try:
@@ -50,10 +53,9 @@
            print(f"X is {x}")
         ```
 
-
-
 * Another example for `return` key word
-    - ```python
+  
+  * ```python
         def ex1():
            while True:
                 try:
@@ -64,9 +66,12 @@
                     return x
              
         ```
+
 * Another example for `return` key word and normalize code
-    - ```python
-        def ex1():
+  
+  * ```python
+
+    def ex1():
            while True:
                 try:
                     return int(input("What's X?"))
@@ -75,7 +80,8 @@
             
         ```
 * Another example for `pass` key word and normalize code
-    - ```python
+  
+  * ```python
         def ex1():
            while True:
                 try:
@@ -87,12 +93,8 @@
 
 > you can also raise an exception with `raise` keyword
 
+### Break Points
 
-### Braek Points:
+> `breakpoints`
 
-> `breakpoints` 
-
-
-# MEDIOCRACY : The Politics of the Extreme Center
-
-
+MEDIOCRELY : The Politics of the Extreme Center
