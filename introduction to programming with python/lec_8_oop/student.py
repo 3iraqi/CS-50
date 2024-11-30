@@ -14,15 +14,24 @@ class Student:
         return f"{self.name} from {self.house}"
     
     def charm(self):
-        match self.patronus:
-            case "stag":
-                return "🐴"
-            case "Otter":
-                return "🦦"
-            case "Jack Russell terrier":
-                return "🐶"
-            case _:
-                return "❕"
+        if self.patronus.lower() == "stag":
+            return "🐴"
+        elif self.patronus.lower() == "otter":
+            return "🦦"
+        elif self.patronus.lower() == "jack russell terrier":
+            return "🐶"
+        else:
+            return "!!!"
+  # def charm(self):
+        #     match self.patronus:
+        #         case "stag":
+        #             return "🐴"
+        #         case "Otter":
+        #             return "🦦"
+        #         case "Jack Russell terrier":
+        #             return "🐶"
+        #         case _:
+        #             return "❕"
     
     
 
@@ -30,7 +39,8 @@ def main():
     student =get_student()
     print("Expecto Patronum!")
     print(student.charm())
-    # student.info()
+    print(student)
+    
     
 
 def get_student():
