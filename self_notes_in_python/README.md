@@ -46,15 +46,15 @@
 >>> * List comprehension is better in speed (Execution time).
 >>>
 >>>> * Use Case (Practicality)
->>>> * Generator:
->>>>   * Excellent for streaming data or partial consumption of results.
->>>>   * Handles infinite or very large datasets that cannot fit into memory.
->>>> * List Comprehension:
->>>>   * Best for tasks requiring repeated access to the entire dataset.
+>>>> * **`Generator`**:
+>>>>   * Excellent for **`streaming data`** or **`partial consumption`** of results.
+>>>>   * Handles **`infinite`** or **`very large datasets`** that cannot fit into memory.
+>>>> * **`List Comprehension`**:
+>>>>   * Best for tasks requiring **`repeated access`** to the entire dataset.
 >>>>   * Suitable for computations on small to moderately sized data.
->>>> * Winner: Depends on the use case:
->>>>   * Generator: For large or infinite datasets, one-time or partial use.
->>>>   * List Comprehension: For small datasets or frequent access to all elements.
+>>>> * **`Winner`**: Depends on the use case:
+>>>>   * **`Generator`**: For large or infinite datasets, one-time or partial use.
+>>>>   * **`List Comprehension`**: For small datasets or frequent access to all elements.
 >> (yield) Keyword
 >
 > * How It Works:
