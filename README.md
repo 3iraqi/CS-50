@@ -1,6 +1,6 @@
 # CS'50
   
-* ##  **[Introduction to Programming with  Python](./introduction%20to%20programming%20with%20python/README.md)**
+* ## **[Introduction to Programming with  Python](./introduction%20to%20programming%20with%20python/README.md)**
 
-
+* ## **[Self Notes In python](./self_notes_in_python/README.md)**
   
