@@ -4,9 +4,9 @@ def square_numbers(nums):
     
 
 my_nums = square_numbers([1,2,3,4,5])
-# my_nums=[x*x for x in [1,2,3,4,5]]
+my_nums=[x*x for x in [1,2,3,4,5]]
 
-
+print(my_nums)
 # print (next( my_nums),end=" ")
 # print (next( my_nums),end=" ")
 # print (next( my_nums),end=" ")

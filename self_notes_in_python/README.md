@@ -5,7 +5,7 @@
 ## Table of Contents
 
 1. [Nested function-Closure](#nested-function-closure)
-2. [Generator function](#generator-function)
+2. [Generator function](#generator-function-generator)
 <!-- 
 1. []()
 2. []() 
@@ -18,8 +18,6 @@
 9.  []()
 10. 
 11. -->
-
-## Closure
 
 >> ## **Nested function** [(Closure)](closure.py)
 >
@@ -43,6 +41,20 @@
 
 > ## **Generator function** [(Generator)](generator.py)
 >
+>>> * It do the same thing as `[list comprehension]` show file called generator to show.
+>>> * Generator function is better in performance(memory usage).
+>>> * List comprehension is better in speed (Execution time).
+>>>
+>>>> * Use Case (Practicality)
+>>>> * Generator:
+>>>>   * Excellent for streaming data or partial consumption of results.
+>>>>   * Handles infinite or very large datasets that cannot fit into memory.
+>>>> * List Comprehension:
+>>>>   * Best for tasks requiring repeated access to the entire dataset.
+>>>>   * Suitable for computations on small to moderately sized data.
+>>>> * Winner: Depends on the use case:
+>>>>   * Generator: For large or infinite datasets, one-time or partial use.
+>>>>   * List Comprehension: For small datasets or frequent access to all elements.
 >> (yield) Keyword
 >
 > * How It Works:
@@ -60,7 +72,8 @@
         yield(i*i)  # return one value for each call.
     
     my_nums = square_numbers([1,2,3,4,5])
-   
+    my_nums=[x*x for x in [1,2,3,4,5]]
+    print(my_nums)
     for num in my_nums:
         print(num, end=" ")
     ```
