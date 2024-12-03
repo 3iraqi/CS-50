@@ -6,18 +6,17 @@
 
 1. [Nested function-Closure](#nested-function-closure)
 2. [Generator function](#generator-function-generator)
+   * [Generator function vs list comprehension](#generator-function-vs-list-comprehension)
 <!-- 
 1. []()
-2. []() 
+2. []()
 3. []()
 4. []()
 5. []()
-6. []()
-7. []()
-8.  []()
-9.  []()
-10. 
-11. -->
+6.  []()
+7.  []()
+8.  
+9.  -->
 
 >> ## **Nested function** [(Closure)](closure.py)
 >
@@ -41,6 +40,8 @@
 
 > ## **Generator function** [(Generator)](generator.py)
 >
+>> ### Generator function vs. List comprehension
+>>
 >>> * It do the same thing as `[list comprehension]` show file called generator to show.
 >>> * Generator function is better in performance(memory usage).
 >>> * List comprehension is better in speed (Execution time).
