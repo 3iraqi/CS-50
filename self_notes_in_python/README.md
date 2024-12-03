@@ -9,7 +9,7 @@
   - [**Nested function**](#nested-function)
     - [Python Closures (Closure)](#python-closures-closure)
     - [**Generators** (Generator)](#generators-generator)
-    - [🔝](#)
+    - [---------- 🔝-------](#------------------)
 <!-- 
 1. []()
 2. []()
@@ -103,4 +103,4 @@
         print(num, end=" ")
     ```
 
-### [🔝](#-python-self-study-notes)
+### ---------- [🔝](#-python-self-study-notes)-------
