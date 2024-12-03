@@ -33,12 +33,12 @@
 
 * ```python
     def calculate():
-    num = 1
+        num = 1
         def inner_func():
             nonlocal num
             num += 2
-        return num
-    return inner_func
+            return num
+        return inner_func
 
     odd = calculate() # Call the outer function
     print(odd())   # Call the inner function
