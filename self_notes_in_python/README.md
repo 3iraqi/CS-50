@@ -101,3 +101,5 @@
     for num in my_nums:
         print(num, end=" ")
     ```
+
+[🔝](#-python-self-study-notes)
