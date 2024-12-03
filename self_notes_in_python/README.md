@@ -4,8 +4,20 @@
 
 ## Table of Contents
 
-1. [Nested function -Closure](#nested-function-closure)
+1. [Nested function-Closure](#nested-function-closure)
 2. [Generator function](#generator-function)
+<!-- 
+1. []()
+2. []() 
+3. []()
+4. []()
+5. []()
+6. []()
+7. []()
+8.  []()
+9.  []()
+10. 
+11. -->
 
 ## Closure
 
@@ -29,7 +41,7 @@
 
 ---
 
-> ## **Generator function**
+> ## **Generator function** [(Generator)](generator.py)
 >
 >> (yield) Keyword
 >
@@ -41,3 +53,14 @@
 > 4. When all values are exhausted, the iteration stops.
 >
 >
+
+* ```python
+    def square_numbers(nums):
+    for i in nums:
+        yield(i*i)  # return one value for each call.
+    
+    my_nums = square_numbers([1,2,3,4,5])
+   
+    for num in my_nums:
+        print(num, end=" ")
+    ```
