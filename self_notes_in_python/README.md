@@ -1,4 +1,7 @@
+<a name="top">
 # ▣ Python self Study Notes
+
+</a>
 
 ---
 
@@ -94,4 +97,4 @@
         print(num, end=" ")
     ```
 
----------- [Content Table 🔝](#-python-self-study-notes)-------
+---------- [Content Table 🔝](#top)-------
