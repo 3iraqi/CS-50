@@ -4,11 +4,11 @@
 
 ## Some of Advanced Topics (Content Table)
 
-1. [Nested Function](#nested-function)
-   1. [Python Closure](#python-closures-closure)
-      * [When To use Closure](#when-to-use-closures)
-   2. [Python Generators](#generators-generator)
-      * [Generator function vs list comprehension](#generator-function-vs-list-comprehensiongenerator-expression)
+- [▣ Python self Study Notes](#-python-self-study-notes)
+  - [Some of Advanced Topics (Content Table)](#some-of-advanced-topics-content-table)
+  - [**Nested function**](#nested-function)
+    - [Python Closures (Closure)](#python-closures-closure)
+    - [**Generators** (Generator)](#generators-generator)
 <!-- 
 1. []()
 2. []()
@@ -20,18 +20,18 @@
 8.  
 9.  -->
 
->> ## **Nested function**
->
-> ### Python Closures [(Closure)](closure.py)
->
->> #### When to use closures?
->>
->> * Closures can be used to avoid global values and provide data hiding, and can be an elegant solution for simple cases with one or few methods.
->> * However, for larger cases with multiple attributes and methods, a `class` implementation may be more appropriate.
+## **Nested function**
 
-* Ex:
+### Python Closures [(Closure)](closure.py)
 
-* ```python
+> #### When to use closures?
+>
+> - Closures can be used to avoid global values and provide data hiding, and can be an elegant solution for simple cases with one or few methods.
+> - However, for larger cases with multiple attributes and methods, a `class` implementation may be more appropriate.
+
+- Ex:
+
+- ```python
     def calculate():
         num = 1
         def inner_func():
@@ -46,7 +46,7 @@
 
 > Here `nonlocal` mean the variable in the outer functions
 
-* ```python
+- ```python
  
     def outer(a):
         def inner(b):
@@ -61,27 +61,27 @@
 
 ---
 
-> ### **Generators** [(Generator)](generator.py)
+### **Generators** [(Generator)](generator.py)
 >
 >> #### Generator function vs. List comprehension`(Generator Expression)`
 >>
->>> * It do the same thing as `[list comprehension]` = `(Python Generator Expression)` show file called generator to show.
->>> * Generator function is better in performance(memory usage).
->>> * List comprehension is better in speed (Execution time).
+>>> - It do the same thing as `[list comprehension]` = `(Python Generator Expression)` show file called generator to show.
+>>> - Generator function is better in performance(memory usage).
+>>> - List comprehension is better in speed (Execution time).
 >>>
->>>> * Use Case (Practicality)
->>>> * **`Generator`**:
->>>>   * Excellent for **`streaming data`** or **`partial consumption`** of results.
->>>>   * Handles **`infinite`** or **`very large datasets`** that cannot fit into memory.
->>>> * **`List Comprehension`**:
->>>>   * Best for tasks requiring **`repeated access`** to the entire dataset.
->>>>   * Suitable for computations on small to moderately sized data.
->>>> * **`Winner`**: Depends on the use case:
->>>>   * **`Generator`**: For large or infinite datasets, one-time or partial use.
->>>>   * **`List Comprehension`**: For small datasets or frequent access to all elements.
+>>>> - Use Case (Practicality)
+>>>> - **`Generator`**:
+>>>>   - Excellent for **`streaming data`** or **`partial consumption`** of results.
+>>>>   - Handles **`infinite`** or **`very large datasets`** that cannot fit into memory.
+>>>> - **`List Comprehension`**:
+>>>>   - Best for tasks requiring **`repeated access`** to the entire dataset.
+>>>>   - Suitable for computations on small to moderately sized data.
+>>>> - **`Winner`**: Depends on the use case:
+>>>>   - **`Generator`**: For large or infinite datasets, one-time or partial use.
+>>>>   - **`List Comprehension`**: For small datasets or frequent access to all elements.
 >> (yield) Keyword
 >
-> * How It Works:
+> - How It Works:
 >
 > 1. The function `generate_squares(n)` is a generator function because it uses the `yield` keyword.
 > 2. When called, it doesn't execute the loop immediately but returns a generator object.
@@ -90,7 +90,7 @@
 >
 >
 
-* ```python
+- ```python
     def square_numbers(nums):
     for i in nums:
         yield(i*i)  # return one value for each call.
