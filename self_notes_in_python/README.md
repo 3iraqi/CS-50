@@ -4,11 +4,12 @@
 
 ## Table of Contents
 
-1. [Nested function](#nested-function-closure)
+1. [Nested function -Closure](#nested-function-closure)
+2. [Generator function](#generator-function)
 
 ## Closure
 
->> ## **Nested function** [(Closure)](closure.py) [element: a]
+>> ## **Nested function** [(Closure)](closure.py)
 >
 
 * Ex:
@@ -28,7 +29,8 @@
 
 ---
 
-> **Generator function**
+> ## **Generator function**
+>
 >> (yield) Keyword
 >
 > * How It Works:
