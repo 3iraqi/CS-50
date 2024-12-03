@@ -10,16 +10,6 @@
       - [Python Closures (Closure)](#python-closures-closure)
       - [**Generators** (Generator)](#generators-generator)
 
-<!-- 
-1. []()
-2. []()
-3. []()
-4. []()
-5. []()
-6.  []()
-7.  []()
-8.  
-9.  -->
 ## Advanced Topics
 
 ### **Nested function**
