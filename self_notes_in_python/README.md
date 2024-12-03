@@ -94,4 +94,4 @@
         print(num, end=" ")
     ```
 
----------- [🔝](#-python-self-study-notes)-------
+---------- [Content Table 🔝](#-python-self-study-notes)-------
