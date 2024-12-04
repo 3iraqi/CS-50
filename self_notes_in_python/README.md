@@ -12,6 +12,9 @@
         - [When to use closures?](#when-to-use-closures)
       - [**Generators** (Generator)](#generators-generator)
         - [Generator function vs. List comprehension`(Generator Expression)`](#generator-function-vs-list-comprehensiongenerator-expression)
+      - [Python Decorators](#python-decorators)
+
+---
 
 ## Advanced Topics
 
@@ -42,7 +45,6 @@
 > Here `nonlocal` mean the variable in the outer functions
 
 - ```python
- 
     def outer(a):
         def inner(b):
             return a+b
@@ -96,5 +98,17 @@
     for num in my_nums:
         print(num, end=" ")
     ```
+
+---
+
+#### Python Decorators
+
+>> - it allows programmers to modify the **`behavior`** of a function or class.
+>> - Decorators allow us to **`wrap another function`** in order to extend the behavior of the wrapped function, without permanently modifying it
+>
+>> In Python, functions are first class objects which means that functions in Python can be used or passed as arguments.
+>
+>
+>
 
 ---------- [Content Table 🔝](#-python-self-study-notes)-------
