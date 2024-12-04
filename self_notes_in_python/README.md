@@ -1,7 +1,5 @@
-<a name="top">
-# ▣ Python self Study Notes
 
-</a>
+# ▣ Python self Study Notes
 
 ---
 
@@ -11,7 +9,9 @@
   - [Advanced Topics](#advanced-topics)
     - [**Nested function**](#nested-function)
       - [Python Closures (Closure)](#python-closures-closure)
+        - [When to use closures?](#when-to-use-closures)
       - [**Generators** (Generator)](#generators-generator)
+        - [Generator function vs. List comprehension`(Generator Expression)`](#generator-function-vs-list-comprehensiongenerator-expression)
 
 ## Advanced Topics
 
@@ -19,7 +19,7 @@
 
 #### Python Closures [(Closure)](closure.py)
 
-> ##### When to use closures?
+##### When to use closures?
 >
 > - Closures can be used to avoid global values and provide data hiding, and can be an elegant solution for simple cases with one or few methods.
 > - However, for larger cases with multiple attributes and methods, a `class` implementation may be more appropriate.
@@ -57,8 +57,8 @@
 ---
 
 #### **Generators** [(Generator)](generator.py)
->
->> ##### Generator function vs. List comprehension`(Generator Expression)`
+
+##### Generator function vs. List comprehension`(Generator Expression)`
 >>
 >>> - It do the same thing as `[list comprehension]` = `(Python Generator Expression)` show file called generator to show.
 >>> - Generator function is better in performance(memory usage).
@@ -97,4 +97,4 @@
         print(num, end=" ")
     ```
 
----------- [Content Table 🔝](#top)-------
+---------- [Content Table 🔝](#-python-self-study-notes)-------
