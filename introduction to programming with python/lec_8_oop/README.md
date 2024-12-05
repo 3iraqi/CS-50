@@ -7,3 +7,5 @@
 >> Python Properties
 >>> attributes @property -> decorators
 >
+> ## @classmethod
+>
