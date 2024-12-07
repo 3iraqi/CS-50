@@ -9,34 +9,67 @@ class Student:
     def __str__(self):
         return f"{self.name} from {self.house}"
     
-    @property
-    def name(self):
-        return self._name
+    @classmethod
+    def get(cls):
+        name=input("Name: ")
+        house=input("House: ")
+        return cls(name,house)
+  
+def main():
+    student =Student.get() #(name="medo",house="masr") #get_student()
     
-    @name.setter
-    def name(self,name):
-        try:
-            if not name:
-                raise ValueError("Missing Name")
-        except ValueError:
-            print("Invalid Name: Name cannot be empty")
-        else:
-            self._name=name
+    student.house="egypt"
+    print(student)
+    
+    # try:
+    # except:
+    #     print("error:")
     
     
-    @property  # Getter
-    def house(self):
-        return self._house
+##------------------------------------------------------------------------------------------------------------
+
+# def get_student():
+#     name=input("Name: ")
+#     house=input("House: ")
+#     # patronus=input("Patronus: ")
+#     return Student(name,house)
+#     # try:
+#     # except ValueError :
+        
     
-    @house.setter
-    def house(self,house):
-        try:
-            if house not in ["ardghet","egypt","masr"]:
-                raise ValueError("Invalid house")
-        except:
-            print("Invalid house")
-        else:
-            self._house=house
+
+if __name__ == "__main__":
+    main()
+    
+    
+    # @property
+    # def name(self):
+    #     return self._name
+    
+    # @name.setter
+    # def name(self,name):
+    #     try:
+    #         if not name:
+    #             raise ValueError("Missing Name")
+    #     except ValueError:
+    #         print("Invalid Name: Name cannot be empty")
+    #     else:
+    #         self._name=name
+    
+    
+    # @property  # Getter
+    # def house(self):
+    #     return self._house
+    
+    # @house.setter
+    # def house(self,house):
+    #     try:
+    #         if house not in ["ardghet","egypt","masr"]:
+    #             raise ValueError("Invalid house")
+    #     except:
+    #         print("Invalid house")
+    #     else:
+    #         self._house=house
     
 # def charm(self):
     ##     if self.patronus.lower() == "stag":
@@ -61,28 +94,4 @@ class Student:
     
     
 
-##############################################----------------------------------------------------------------
-def main():
-    student =get_student()
-    # print(student.charm())
-    student.house="egypt"
-    try:
-        print(student)
-    except:
-        print("error:")
-    
-    
-##------------------------------------------------------------------------------------------------------------
-
-def get_student():
-    name=input("Name: ")
-    house=input("House: ")
-    # patronus=input("Patronus: ")
-    return Student(name,house)
-    # try:
-    # except ValueError :
-        
-    
-
-if __name__ == "__main__":
-    main()
+##############################################----------------------------------------------------
