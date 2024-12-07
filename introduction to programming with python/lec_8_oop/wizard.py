@@ -17,3 +17,10 @@ class Professor(Wizard):
         super().__init__(name)
         self.subject=subject
         
+        
+wizard=Wizard("gamasa")
+
+student=Student("samira","egy")
+professor=Professor("Mohsen","ML")
+
+print(student.name)
