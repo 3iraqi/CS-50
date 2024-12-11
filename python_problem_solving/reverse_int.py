@@ -7,9 +7,7 @@ def main():
     print(num)
 
 def reverse(x):
-    if x>((2**31)+1) or -1*x>(2**32):
-            return 0 
-    elif x<0:
+    if x<0:
             return -reverse(-x)
     else:
             return int(str(x)[::-1])
