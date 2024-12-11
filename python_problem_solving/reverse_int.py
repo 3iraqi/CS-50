@@ -4,15 +4,15 @@ def main():
     y=-123
     # z=(2**(-32)) > -123
     num=reverse(y)
-    print(y)
+    print(num)
 
-def reverse(num):
-    if num>((2**31)+1) or -1*num>(2**32):
-        return 0 
-    elif num<0:
-        return -reverse(-num)
+def reverse(x):
+    if x>((2**31)+1) or -1*x>(2**32):
+            return 0 
+    elif x<0:
+            return -reverse(-x)
     else:
-        return int(str(num)[::-1])
+            return int(str(x)[::-1])
 
 
 if __name__ == '__main__':
