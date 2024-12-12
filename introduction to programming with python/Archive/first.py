@@ -5,4 +5,4 @@ def print_square(size):
 		for j in range(size-i):
 			# Print brick
 			print("#",end="")
-		print()
+		print() 
