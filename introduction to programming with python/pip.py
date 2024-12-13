@@ -25,4 +25,4 @@ def fuel():
         else:
             return fuel
         
-print(int(fuel()))
+print(int(fuel()),end="%")
