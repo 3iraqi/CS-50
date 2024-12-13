@@ -1,33 +1,39 @@
 from fractions import Fraction
+"""
+if, though, 
+X or Y is not an integer,
+X is greater than Y,
+Y is 0, 
+ignore all this inputs.
+"""
 
 def main():
-    
+
     y = fuel()
-    
-    if y==0:
+
+    if 1>=y>=0:
         print("E")
-    elif y==100:
+    elif 99 <= y<=100:
         print("F")
     else:
         print(y,end="%")
-    
-    
-    
-    
+
+
+
+
 def fuel():
     while True:
         try:
-           x= int(float(Fraction(input("Fraction: ")))*100) 
+           x= int(round(float(Fraction(input("Fraction: ")))) *100 )
+           if x > 100:
+               raise ValueError("Fraction must be")
         except ValueError:
             pass
         except ZeroDivisionError:
             pass
         else:
-            if x > 100:
-                pass
-            else:            
-                return x
-            
-        
-        
+            return x
+
+
+
 main()
