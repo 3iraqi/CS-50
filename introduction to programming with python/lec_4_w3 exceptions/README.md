@@ -71,7 +71,7 @@
   
   * ```python
 
-    def ex1():
+        def ex1():
            while True:
                 try:
                     return int(input("What's X?"))
