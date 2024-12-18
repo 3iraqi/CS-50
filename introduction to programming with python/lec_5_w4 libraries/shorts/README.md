@@ -29,5 +29,7 @@
 >> - Blank Lines
 >> - Imports
 >
-> - `pylint` is a program or extention
+> - `pylint` is a program or extention to review your code style(but it noisy another tool called `pycodestyle`)
+>
+> you can type `pylint` to rate your code style in terminal write pylint then file name and `black` to reformat your code .
 >
