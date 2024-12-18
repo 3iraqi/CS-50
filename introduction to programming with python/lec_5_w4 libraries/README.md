@@ -2,6 +2,8 @@
 
 - [Libraries](#libraries)
   - [APIs package](#apis-package)
+    - [requests](#requests)
+    - [Json](#json)
 
 > Ex: `• random  library` `statistics` `command-line arguments`
 
@@ -30,6 +32,13 @@
     ```
 
 ## APIs package
+
+### [requests](https://pypi.org/project/requests/)
+
+>> pip install requests
+>> applied in [itunes.py](itunes.py)
+
+### Json
 
 >> APIs Third-party Library.
 >
