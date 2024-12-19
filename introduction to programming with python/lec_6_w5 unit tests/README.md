@@ -1,11 +1,37 @@
 # Unit Tests
 
+- [Unit Tests](#unit-tests)
+  - [`assert`](#assert)
+  - [`pytest`](#pytest)
+
+>> Main Code Source
+
+```python
+"""Unit test example """
+
+def main():
+    """main"""
+    x = int(input("What's X?"))
+    print("x squared is", square(x))
+
+
+def square(n):
+    """Square number"""
+    return n * n
+
+
+if __name__ == "__main__":
+    main()
+
+
+```
+
 ## `assert`
 
 <details>
 <summary>return bool</summary>
 
-  ```python
+```python
      """Testing the calculator"""
 
 from calculator import square
@@ -53,19 +79,43 @@ if __name__ == "__main__":
 <details>
 <summary>py third party program</summary>
 
-```python
+- ```python
     """PEP"""
-from calculator import square
+    from calculator import square
 
 
-def test_square():
+    def test_square():
+        """PEP"""
+        assert square(2) == 4
+        assert square(3) == 9
+        assert square(-2) == 4
+        assert square(-3) == 9
+        assert square(0) == 0
+
+    ```
+
+>> Another Ex
+
+- ```python
     """PEP"""
-    assert square(2) == 4
-    assert square(3) == 9
-    assert square(-2) == 4
-    assert square(-3) == 9
-    assert square(0) == 0
+    from calculator import square
 
-```
+
+    def test_positive():
+        """PEP"""
+        assert square(2) == 4
+        assert square(3) == 9
+    
+    def test_negative():
+        """PEP"""
+        assert square(-2) == 4
+        assert square(-3) == 9
+    
+    def test_zero():
+        """PEP"""
+        assert square(0) == 0
+    
+
+    ```
 
 </details>
