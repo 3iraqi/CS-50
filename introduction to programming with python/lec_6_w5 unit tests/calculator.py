@@ -2,7 +2,7 @@
 
 def main():
     """main"""
-    x = int(input("What's X?"))
+    x = input("What's X?")
     print("x squared is", square(x))
 
 
