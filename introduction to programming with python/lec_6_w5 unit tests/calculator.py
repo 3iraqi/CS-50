@@ -1,6 +1,5 @@
 """Unit test example """
 
-
 def main():
     """main"""
     x = int(input("What's X?"))
@@ -9,7 +8,7 @@ def main():
 
 def square(n):
     """Square number"""
-    return n * n
+    return n + n
 
 
 if __name__ == "__main__":
