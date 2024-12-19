@@ -8,7 +8,7 @@ def main():
 
 def square(n):
     """Square number"""
-    return n + n
+    return n * n
 
 
 if __name__ == "__main__":
