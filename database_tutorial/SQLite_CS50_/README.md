@@ -1,6 +1,6 @@
-# \[SQLite ~~ database\]
+# SQLite  database
 
-- [\[SQLite ~~ database\]](#sqlite--database)
+- [SQLite  database](#sqlite--database)
   - [SQL Keywords](#sql-keywords)
 
 |Name|Description|
@@ -41,6 +41,3 @@ SELECT "title" FROM "books" LIMIT 10;
 -- select title column from books table limit first 10 rows
 
 ```
-
-
-\[  \]
