@@ -27,8 +27,13 @@
 |"columns Name"|convention|
 |'String names'|convention|
 |LIMIT|to choose how many rows should be selected|
+|WHERE|select cell or row by condition|
 
 </details>
+
+<details>
+
+<Summary>CODE Examples</Summary>
 
 ```SQL
 -- SQLite CS50 Course
@@ -39,5 +44,26 @@ SELECT "title" FROM "books" ;
 -- select title column from books table
 SELECT "title" FROM "books" LIMIT 10;
 -- select title column from books table limit first 10 rows
+SELECT "id" FROM "books" WHERE "title"="Whale";
+-- WHERE to select cell when another cell equal  something
+SELECT "title" FROM "books" WHERE "id"<10;
+-- select title rows from books when the id is lower than 10
+
 
 ```
+
+</details>
+
+<details>
+
+<Summary>SQL Commands</Summary>
+
+```sql
+
+.mode box
+-- to show displayed data in a table
+
+
+```
+
+</details>
