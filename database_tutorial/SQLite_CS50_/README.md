@@ -62,23 +62,14 @@ SELECT "title" FROM "books" WHERE "id"<10;
 
 .mode box
 -- to show displayed data in a table
-┌────┬────────────────────────────────────────┬────┐
-│ id │                 title                  │ id │
-├────┼────────────────────────────────────────┼────┤
-│ 1  │ Boulder                                │ 1  │
-│ 2  │ Whale                                  │ 2  │
-│ 3  │ The Gospel According to the New World  │ 3  │
-│ 4  │ Standing Heavy                         │ 4  │
-│ 5  │ Time Shelter                           │ 5  │
-│ 6  │ Is Mother Dead                         │ 6  │
-│ 7  │ Jimi Hendrix Live in Lviv              │ 7  │
-│ 8  │ The Birthday Party                     │ 8  │
-│ 9  │ While We Were Dreaming                 │ 9  │
-│ 10 │ Pyre                                   │ 10 │
-│ 11 │ Still Born                             │ 11 │
-│ 12 │ A System So Magnificent It Is Blinding │ 12 │
-│ 13 │ Ninth Building                         │ 13 │
-└────┴────────────────────────────────────────┴────┘
+┌────┬───────────────────────────────────────┐
+│ id │                 title                 │
+├────┼───────────────────────────────────────┤
+│ 1  │ Boulder                               │
+│ 2  │ Whale                                 │
+│ 3  │ The Gospel According to the New World │
+│ 4  │ Standing Heavy                        │
+└────┴───────────────────────────────────────┘
 
 ```
 
