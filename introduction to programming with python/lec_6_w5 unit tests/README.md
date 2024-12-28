@@ -76,7 +76,7 @@ if __name__ == "__main__":
 
 ## `pytest`
 
-<details>
+<details >
 <summary>py third party program</summary>
 
 - ```python
@@ -119,3 +119,39 @@ if __name__ == "__main__":
     ```
 
 </details>
+
+<details>
+<Summary>Side Effect</Summary>
+
+>> can not check equality of print function because it not return value.
+
+```python
+    def hello(name="world"):
+        print ("Hello, ",name)
+
+
+    def test_hello():
+        hello("David")=="hello, David"
+    # can not check equality of print function because it not return value.
+    
+```
+
+</details>
+
+<details>
+  <summary>more testable</summary>
+
+```python
+    def hello(name="world"):
+        return f"Hello, {name}"
+
+    # calling
+    print(hello(name))
+
+```
+
+</details>
+
+> By make a folder and create file named: \_\_init\_\_.py that make python treat this folder as a package.
+> > and then I can test folder.
+>
