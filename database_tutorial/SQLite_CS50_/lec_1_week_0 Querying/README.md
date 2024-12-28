@@ -12,7 +12,7 @@
 
 ## SQL Keywords
 
-<details>
+<details open>
 <Summary>SQL Keywords Table</Summary>
 
 >> SQL keywords are case insensitive  but we should follow the conventions.
@@ -33,9 +33,19 @@
 |AND|AND conditional operator|
 |OR|OR conditional operator|
 |(Condition)|to combine conditions as one condition|
-|||
+|NULL| it is not in our data base.|
+|IS NULL|-|
+|IS NOT NULL|-|
+|LIKE|to check if there is any word like or contain some of these string  |
+|LIKE operator| % , _ |
+|%: combine some word|_: combine some char|
+|word%,%word%,%word  |if word in first,middle or any where,end|
 
 </details>
+
+|||
+|-|-|
+|||
 
 <details>
 
@@ -71,14 +81,14 @@ SELECT "title" FROM "books" WHERE "id"<10;
 .mode box
 -- to show displayed data in a table
 
-┌────┬───────────────────────────────────────┐
-│ id │                 title                 │
-├────┼───────────────────────────────────────┤
-│ 1  │ Boulder                               │
-│ 2  │ Whale                                 │
-│ 3  │ The Gospel According to the New World │
-│ 4  │ Standing Heavy                        │
-└────┴───────────────────────────────────────┘
+    ┌────┬───────────────────────────────────────┐
+    │ id │                 title                 │
+    ├────┼───────────────────────────────────────┤
+    │ 1  │ Boulder                               │
+    │ 2  │ Whale                                 │
+    │ 3  │ The Gospel According to the New World │
+    │ 4  │ Standing Heavy                        │
+    └────┴───────────────────────────────────────┘
 
 ```
 
