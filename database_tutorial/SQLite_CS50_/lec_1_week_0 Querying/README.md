@@ -45,13 +45,12 @@
 |BETWEEN .. AND ..|range operator|
 |ORDER BY .. ASC|order data ascending. |
 |ORDER BY .. DESC|order data descending. |
-|COUNT <br> AVG<br> MIN<br> MAX<br> SUM |<h3>aggregate functions.</h3>|
+|COUNT() <br> AVG()<br> MIN() <br> MAX()<br> SUM() |<h3>aggregate functions.</h3>|
+|ROUND(object,decimal)| round the fraction to n places|
+|AS|to show output in specific name|
+|DISTINCT| to remove duplicated value in any column |
 
 </details>
-
-|||
-|-|-|
-|||
 
 <details>
 
@@ -74,8 +73,10 @@ SELECT "title" FROM "books" WHERE "title" LIKE '%love%';
 -- find sentence contain love
 SELECT "title" , "pages" FROM "books" ORDER BY "pages" DESC LIMIT 10;
 -- order by descending
-
-
+SELECT ROUND(AVG("pages"),2) AS "Average Pages" FROM "books";
+-- to change column name that contain the average of pages .
+SELECT DISTINCT "publisher" FROM "books";
+-- that will filter duplicates
 
 ```
 
