@@ -40,6 +40,12 @@
 |LIKE operator| % , _ |
 |%: combine some word|_: combine some char|
 |word%,%word%,%word  |if word in first,middle or any where,end|
+|t__|the replaced chars with _|
+|< > <= >=|range operator|
+|BETWEEN .. AND ..|range operator|
+|ORDER BY .. ASC|order data ascending. |
+|ORDER BY .. DESC|order data descending. |
+|COUNT <br> AVG<br> MIN<br> MAX<br> SUM |<h3>aggregate functions.</h3>|
 
 </details>
 
@@ -64,7 +70,10 @@ SELECT "id" FROM "books" WHERE "title"="Whale";
 -- WHERE to select cell when another cell equal  something
 SELECT "title" FROM "books" WHERE "id"<10;
 -- select title rows from books when the id is lower than 10
-
+SELECT "title" FROM "books" WHERE "title" LIKE '%love%';
+-- find sentence contain love
+SELECT "title" , "pages" FROM "books" ORDER BY "pages" DESC LIMIT 10;
+-- order by descending
 
 
 
