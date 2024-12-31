@@ -1,0 +1,10 @@
+# ASCII CODE
+
+## TREE STRUCTURE
+
+192 └
+195 ├
+196 ─
+197 ┼
+194 ┬
+193 ┴
