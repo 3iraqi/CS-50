@@ -1,6 +1,6 @@
 # FILE   I / O
 
-<hr>
+---
 
 <details>
   <summary>Ex-1:Save to List </summary>
@@ -18,7 +18,7 @@ for name in sorted(names):
 
 </details>
 
-<hr>
+---
 
 <details>
   <summary>TXT file </summary>
@@ -37,7 +37,7 @@ for name in sorted(names):
 
 </details>
 
-<hr>
+---
 
 <details>
   <summary>with [keyword] </summary>
@@ -55,18 +55,31 @@ for name in sorted(names):
 
 </details>
 
-<hr>
+---
 
 <details>
   <summary>read an existing file</summary>
 
-```python
-    
-    
-    
+>first way explicitly
 
-```
+- ```python
+    with open("names.txt",mode="r",encoding="UTF-8" ) as file: 
+    # I used mode "r" to read the file 
+        lines = file.readlines()
+
+    for line in lines:
+        print("hello,",line.rstrip())
+  ```
+
+> second way combine
+
+- ```python
+    with open("names.txt",mode="r",encoding="UTF-8" ) as file: 
+    # I used mode "r" to read the file 
+        for line in file:
+            print("hello,",line.rstrip())
+  ```
 
 </details>
 
-<hr>
+---
