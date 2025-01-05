@@ -83,3 +83,31 @@ for name in sorted(names):
 </details>
 
 ---
+
+<details>
+  <summary>read an existing file and print sorted names</summary>
+
+>first way explicitly
+
+- ```python
+    names = [ ]
+
+    with open("names.txt")as file:
+        for line in file:
+            names.append(line.strip())
+
+    for name in sorted(names):
+        print(f"hello,{name}")
+  ```
+
+> second way combine
+
+- ```python
+    with open("names.txt")as file:
+    for line in sorted(file):
+        print("hello,",line.rstrip())
+  ```
+
+</details>
+
+---
