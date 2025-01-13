@@ -2,8 +2,10 @@
 
 ---
 
+## Save to List
+
 <details>
-  <summary>Ex-1:Save to List </summary>
+ <summary>Ex-1:Save to List </summary>
 
 ```python
 names=[]
