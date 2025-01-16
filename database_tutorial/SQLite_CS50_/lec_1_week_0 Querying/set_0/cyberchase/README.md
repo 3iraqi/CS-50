@@ -8,10 +8,10 @@
 6. In 6.sql, list the titles of episodes from season 6 (2008) that were released early, in 2007.
 7. In 7.sql, write a SQL query to list the titles and topics of all episodes teaching fractions.
 8. In 8.sql, write a query that counts the number of episodes released in the last 6 years, from 2018 to 2023, inclusive.
-9. You might find it helpful to know you can use BETWEEN with dates, such as BETWEEN '2000-01-01' AND '2000-12-31'.
-10. In 9.sql, write a query that counts the number of episodes released in Cyberchase’s first 6 years, from 2002 to 2007, inclusive.
-11. In 10.sql, write a SQL query to list the ids, titles, and production codes of all episodes. Order the results by production code, from earliest to latest.
-12. In 11.sql, list the titles of episodes from season 5, in reverse alphabetical order.
-13. In 12.sql, count the number of unique episode titles.
-14. In 13.sql, write a SQL query to explore a question of your choice. This query should:
+   - You might find it helpful to know you can use BETWEEN with dates, such as BETWEEN '2000-01-01' AND '2000-12-31'.
+9. In 9.sql, write a query that counts the number of episodes released in Cyberchase’s first 6 years, from 2002 to 2007, inclusive.
+10. In 10.sql, write a SQL query to list the ids, titles, and production codes of all episodes. Order the results by production code, from earliest to latest.
+11. In 11.sql, list the titles of episodes from season 5, in reverse alphabetical order.
+12. In 12.sql, count the number of unique episode titles.
+13. In 13.sql, write a SQL query to explore a question of your choice. This query should:
     - Involve at least one condition, using WHERE with AND or OR.
