@@ -1,7 +1,7 @@
 # Assignments
 
-1. In 1.sql, write a SQL query to list the titles of all episodes in Cyberchase’s original season, Season 1.
-2. In 2.sql, list the season number of, and title of, the first episode of every season.
+1. In 1.sql, write a SQL query to list the titles of all episodes in Cyberchase’s original season, Season 1. _`done`_
+2. In 2.sql, list the season number of, and title of, the first episode of every season. _`done`_
 3. In 3.sql, find the production code for the episode “Hackerized!”.
 4. In 4.sql, write a query to find the titles of episodes that do not yet have a listed topic.
 5. In 5.sql, find the title of the holiday episode that aired on December 31st, 2004.
