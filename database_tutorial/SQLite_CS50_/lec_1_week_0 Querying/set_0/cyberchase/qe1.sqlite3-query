@@ -32,7 +32,7 @@ WHERE air_date = '2004-12-31'
 SELECT title
 FROM episodes
 WHERE  (season = 6) 
-AND (air_date LIKE '%2007%')
+AND (air_date BETWEEN '2007-01-01' AND '2007-12-31')
 ;
 
 /*7.sql*/
@@ -42,7 +42,13 @@ WHERE topic LIKE '%Fractions%';
 ;
 
 /*8.sql*/
+-- SELECT COUNT(title)
+SELECT title
+FROM episodes
+WHERE air_date BETWEEN '2018-01-01' AND '2023-12-31';
+
 /*9.sql*/
+
 /*10.sql*/
 /*11.sql*/
 /*12.sql*/
