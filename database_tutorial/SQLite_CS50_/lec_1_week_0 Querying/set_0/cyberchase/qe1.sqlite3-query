@@ -38,19 +38,40 @@ AND (air_date BETWEEN '2007-01-01' AND '2007-12-31')
 /*7.sql*/
 SELECT title, topic
 FROM episodes
-WHERE topic LIKE '%Fractions%';
+WHERE topic LIKE '%Fractions%'
 ;
 
 /*8.sql*/
--- SELECT COUNT(title)
-SELECT title
+--SELECT title
+SELECT COUNT(title)
 FROM episodes
 WHERE air_date BETWEEN '2018-01-01' AND '2023-12-31';
 
 /*9.sql*/
-
+SELECT COUNT(title)
+FROM episodes
+WHERE (air_date BETWEEN '2002-01-01' AND '2007-12-31')
+;
 /*10.sql*/
+SELECT id, title, production_code
+FROM episodes
+ORDER BY production_code ASC  
+;
+
 /*11.sql*/
+SELECT title
+FROM episodes
+WHERE season =5
+ORDER BY title DESC
+;
+
 /*12.sql*/
+SELECT COUNT(DISTINCT title)
+FROM episodes
+;
 
-
+/*13.sql*/
+SELECT title, season
+FROM episodes
+WHERE episode_in_season = 1 AND id < 50
+;

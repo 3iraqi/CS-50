@@ -1,4 +1,4 @@
 SELECT title, topic
 FROM episodes
-WHERE topic LIKE '%Fractions%';
+WHERE topic LIKE '%Fractions%'
 ;

@@ -24,7 +24,8 @@ def main():
 def fuel():
     while True:
         try:
-           x= int(round(float(Fraction(input("Fraction: ")))) *100 )
+           y,z=input("Fraction: ").split('/')
+           x = int(round(float(Fraction(int(y),int(z)))*100) )
            if x > 100:
                raise ValueError("Fraction must be")
         except ValueError:

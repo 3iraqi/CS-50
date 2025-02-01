@@ -1,0 +1,73 @@
+-- database: ./players.db
+
+-- 1
+SELECT birth_city, birth_state, birth_country 
+FROM players
+WHERE first_name ='Jackie' AND last_name = 'Robinson'
+;
+
+-- 2
+SELECT bats
+FROM players
+WHERE first_name = 'Babe' AND last_name = 'Ruth'
+;
+
+-- 3
+SELECT id
+FROM players
+WHERE debut IS NULL
+;
+
+-- 4
+SELECT first_name, last_name
+FROM players
+WHERE birth_country != 'USA'
+ORDER BY first_name ASC,last_name ASC
+;
+
+
+-- 5
+SELECT count(first_name)--, last_name
+FROM players
+WHERE  bats ='R' --AND first_name IS NOT NULL AND last_name IS NOT NULL
+ORDER BY first_name,last_name 
+;
+
+
+
+-- 6
+SELECT first_name, last_name, debut
+FROM players
+WHERE birth_city = 'Pittsburgh' 
+AND birth_state = 'PA'
+ORDER BY debut DESC,first_name ASC
+;
+
+
+-- 7
+SELECT COUNT(id)
+FROM players
+WHERE (throws ='R' AND bats ='L') OR (throws ='L' AND bats ='R')
+;
+
+-- 8
+SELECT ROUND(AVG(height),2) AS "Average Height" ,ROUND(AVG(weight),2) AS "Average Weight"
+FROM players
+WHERE debut >= '2000-01-01' --AND weight NOT NULL
+;
+
+-- 9
+SELECT  first_name, last_name
+FROM players
+WHERE final_game LIKE '2022%'
+ORDER BY first_name,last_name
+;
+
+
+-- 10
+
+SELECT  first_name, last_name AS last_
+FROM players
+WHERE final_game LIKE '2022%'
+ORDER BY first_name,last_name
+;
